@@ -1,4 +1,4 @@
-# CommPeak PHP Pratical Exam
+# CommPeak PHP Practical Exam
 
 ## Requirements:
 - MySql v8
