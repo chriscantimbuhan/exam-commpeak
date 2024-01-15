@@ -43,12 +43,6 @@ php bin/console make:migration
 php bin/console doctrine:migrations:migrate
 ```
 
-Install frontend packages.
-```sh
-cd frontend
-npm install
-```
-
 ## FRONTEND
 Navigate to frontend folder from project directory.
 ```sh
