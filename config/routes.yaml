@@ -1,0 +1,14 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+customer-calls:
+    resource: routes/CustomerCalls/routes.yaml
+    prefix: /customer-calls
+
+# customer-calls:
+#   path: /customer-calls/
+#   controller: App\Controller\CustomerCallController::index
+
+_api:
+    resource: api.yaml

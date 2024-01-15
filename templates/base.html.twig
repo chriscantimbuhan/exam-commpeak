@@ -1,0 +1,27 @@
+{# templates/base.html.twig #}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}My Symfony Project{% endblock %}</title>
+
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('css/app') }}
+        {{ encore_entry_link_tags('css/bootstrap') }}
+        {# Add your custom stylesheets here if needed #}
+    {% endblock %}
+</head>
+<body>
+
+<div id="root"></div>
+
+{% block javascripts %}
+    {{ encore_entry_script_tags('js/app') }}
+    {{ encore_entry_script_tags('js/bootstrap') }}
+    {# Add your custom scripts here if needed #}
+{% endblock %}
+
+</body>
+</html>

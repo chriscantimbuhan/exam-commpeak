@@ -1,0 +1,14 @@
+index:
+    path: /
+    controller: App\Controller\CustomerCallController::index
+    methods: [GET]
+
+processUpload:
+    path: /process-upload
+    controller: App\Controller\CustomerCallController::processUpload
+    methods: [POST]
+
+getStatistics:
+    path: /get-statistics
+    controller: App\Controller\CustomerCallController::getStatistics
+    methods: [GET]
